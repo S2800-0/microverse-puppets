@@ -1,0 +1,42 @@
+{
+  "sourceRepository": "https://github.com/S2800-0/microverse",
+  "sourceRevision": "4664ad693dbde0a7a04aee28513f7d8361c76f5e",
+  "files": [
+    {
+      "path": "src/motion/motion-library.js",
+      "sha256": "168aaa0250901b10fbdfd37f39f9a435a9c97d9032070b3481444bb234479b01"
+    },
+    {
+      "path": "src/motion/puppet-motion.js",
+      "sha256": "f5eb60681a7b32cea0fd577a3130e05e4f4a52a7bb802a6734cb698fd4b4e16a"
+    },
+    {
+      "path": "src/motion/rig-analysis.js",
+      "sha256": "c208cfe074b0d57e9cd72732b56ff4f7a819ebf08780ec277ae0099b574d6d63"
+    },
+    {
+      "path": "src/motion/rig-fitting.js",
+      "sha256": "bb03181314496ac087005af5b931fe1ff99fc184031439693ab6d070754145f7"
+    },
+    {
+      "path": "src/motion/rig-review.js",
+      "sha256": "4a8b311305758171d8aa2c6e0aaa5f5233a6e1adf10e9628b80c986cf32ecab0"
+    },
+    {
+      "path": "src/motion/rig.js",
+      "sha256": "f6cba079c1b5ff6d6c4fac864b9ba3cc0a1bd9752a68aac5f39ebed47886e83b"
+    },
+    {
+      "path": "src/motion/sprite-edges.js",
+      "sha256": "bf7718948dfc4b18cecad38b3ddf092debe404f4e6e94b14c525ef2a8347bc1b"
+    },
+    {
+      "path": "tests/motion.test.mjs",
+      "sha256": "76369a99b49867fb7a33c2966a0fed41dfc967a0588687f132ce4d1f7bc2836c"
+    },
+    {
+      "path": "tests/rig-review.test.mjs",
+      "sha256": "bbb0f47ff434d92981d712269be402d1ceb2eea38a313fc0d104575a71b5af48"
+    }
+  ]
+}

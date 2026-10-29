@@ -1,0 +1,1 @@
+import assert from 'node:assert/strict';import {footTarget,getMotion,solveLimb} from '../dist/index.js';const gait=getMotion('dog');assert.deepEqual(footTarget(0,gait),footTarget(1,gait));console.log({gait,stance:footTarget(.2,gait),swing:footTarget(.85,gait),limb:solveLimb({x:0,y:0},{x:3,y:12},9,7)});

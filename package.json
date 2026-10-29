@@ -1,0 +1,27 @@
+{
+  "name": "microverse-puppets",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Shahesta <shahesta0028@gmail.com>",
+  "description": "Browser-local cutout fitting, procedural puppet motion and explicit rig review.",
+  "engines": {
+    "node": ">=24"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "test": "node --test",
+    "demo": "node examples/demo.mjs",
+    "demo:browser": "npm run build && node scripts/preview.mjs"
+  }
+}
